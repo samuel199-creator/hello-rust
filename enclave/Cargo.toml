@@ -1,7 +1,10 @@
+cargo-features = ["resolver"]
+
 [package]
 name = "Helloworldsampleenclave"
 version = "1.0.0"
 authors = ["The Teaclave Authors"]
+resolver = "2"
 
 [lib]
 name = "helloworldsampleenclave"
