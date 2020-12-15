@@ -1,0 +1,14 @@
+.DS_Store
+*.o
+*.a
+*.so
+Cargo.lock
+target
+app
+Enclave_t.*
+Enclave_u.*
+core.*
+.vscode
+.config_HW_PRERELEASE_x64
+.config_SIM_PRERELEASE_x64
+
