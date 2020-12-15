@@ -1,8 +1,8 @@
 ### How to reproduce
 
-##### Instructions
+#### Instructions
 ```bash
-$ git clone --recurse-submodules -j8 https://github.com/samuel199-creator/hello-rust.git
+$ git clone --recurse-submodules https://github.com/samuel199-creator/hello-rust.git
 $ cd hello-rust
 $ docker run -v $(pwd):/root/sgx -ti -d --name test-runner baiduxlab/sgx-rust:1604-1.1.3
 $ docker exec -ti test-runner bash
@@ -14,7 +14,7 @@ $ cd .. # /root/sgx/enclave
 $ cargo build # crash here.
 ```
 
-##### Error Log
+#### Error Log
 ```log
    Compiling networking v0.1.0 (/root/sgx/enclave/networking)
 warning: unused imports: `Arc`, `SgxMutex`
